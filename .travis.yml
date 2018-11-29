@@ -2,4 +2,4 @@ os: linux
 script: make test
 language: c
 sudo: required
-install: make
+install: make get-deps
