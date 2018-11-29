@@ -1,0 +1,4 @@
+os: linux
+script: make test
+sudo: required
+install: make
