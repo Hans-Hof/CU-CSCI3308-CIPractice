@@ -1,4 +1,4 @@
 os: linux
-script: make test
+script: scons
 sudo: required
 install: make
