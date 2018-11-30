@@ -1,5 +1,5 @@
 os: linux
-script: make test && ./geometry_test
+script: make clean && make test
 language: c
 sudo: required
 install: sudo apt-get install check
